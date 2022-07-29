@@ -1,10 +1,10 @@
 #include<stdio.h>
 
-int main(){    // main start function of the program
+int main(){
 
-  float length;  // variable of datatypes float
+  float length;
   float breadth;  
-  float area = length*breadth; //formula to compute area
-  printf("The area of rectangle with length %f and breadth %f is %f\n", length, breadth, area);    //printing the output on console
-  return 0;  //return specifier
+  float area = length*breadth;
+  printf("The area of rectangle with length %f and breadth %f is %f\n", length, breadth, area);
+  return 0;  
 }
